@@ -1,6 +1,7 @@
 #!/bin/sh
 # Installs dependencies for speedbot
 
+sudo apt-get install python-pip
 sudo pip install pyspeedtest
 sudo pip install twitter
 mkdir logs
